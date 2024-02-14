@@ -1,0 +1,23 @@
+.body-container {
+    height: 70vh;
+    background: #142537;
+    padding: 20px;
+
+    .body-glass {
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: #fff;
+        font-size: 60px;
+        font-weight: 700;
+
+        background: rgba(255, 255, 255, 0.1);
+        box-shadow: 0 25px 45px rgba(0, 0, 0, .2);
+        border-radius: 10px;
+        border: 1px solid rgba(255, 255, 255, 0.5);
+        border-right: 1px solid rgba(255, 255, 255, 0.2);
+        border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+        backdrop-filter: blur(10px);
+    }
+}

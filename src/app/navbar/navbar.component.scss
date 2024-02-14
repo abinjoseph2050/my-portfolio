@@ -1,0 +1,32 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.nav-container {
+    display: flex;
+    background: rgb(207, 243, 207);
+    margin: 10px;
+
+    .logo {
+        width: 40%;
+        font-size: 40px;
+        font-weight: 600;
+    }
+
+    .actions {
+        width: 60%;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+
+        p {
+            transition: 0.4s;
+            cursor: pointer;
+
+            &:hover {
+                color: #4880ff;
+            }
+        }
+    }
+}
