@@ -3,11 +3,11 @@ import { RouterOutlet } from '@angular/router';
 import { NavbarComponent } from './navbar/navbar.component';
 import { FooterComponent } from './footer/footer.component';
 import { BodyComponent } from './body/body.component';
-
+import { CirclesComponent } from './elements/circles/circles.component';
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [RouterOutlet, NavbarComponent, FooterComponent, BodyComponent],
+  imports: [RouterOutlet, NavbarComponent, FooterComponent, BodyComponent, CirclesComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.scss'
 })
