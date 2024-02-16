@@ -65,7 +65,7 @@
     border: 2px solid #fff;
     border-radius: 38% 62% 63% 37% / 41% 44% 56% 59%;
     transition: 0.5s;
-    animation: animate 6s linear infinite;
+    animation: spanAnimation 6s linear infinite;
     // animation: morph 15s linear infinite alternate, spin 20s linear infinite;
 
 }
@@ -80,6 +80,12 @@
         transform: rotate(0deg);
     }
 
+    100% {
+        transform: rotate(-360deg);
+    }
+}
+
+@keyframes spanAnimation {
     100% {
         transform: rotate(360deg);
     }
