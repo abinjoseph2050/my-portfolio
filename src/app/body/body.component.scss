@@ -1,66 +1,25 @@
 .body-container {
-    height: 85vh;
-    background-image: linear-gradient(111.4deg, rgba(7, 7, 9, 1) 6.5%, rgba(27, 24, 113, 1) 93.2%);
-    // background: #000;
-    padding: 20px;
-
+    height: 100vh;
+    width: 100%;
     display: flex;
-    flex-direction: column;
-    align-items: stretch;
-    justify-content: space-evenly;
-    overflow: hidden;
+    justify-content: center;
+    align-items: center;
     position: relative;
 
+    .bg-container {
+        position: absolute;
+        width: 100%;
+    }
+
     .body-glass {
-        height: 100%;
+        height: 85vh;
+        width: 97vw;
         background: rgba(255, 255, 255, 0.1);
         box-shadow: 0 25px 45px rgba(0, 0, 0, .2);
         border-radius: 10px;
         border: 1px solid rgba(255, 255, 255, 0.5);
         border-right: 1px solid rgba(255, 255, 255, 0.2);
         border-bottom: 1px solid rgba(255, 255, 255, 0.2);
-        // backdrop-filter: blur(20px);
-
-        .contents {
-            width: 100%;
-            height: 100%;
-            display: flex;
-            justify-content: space-around;
-            align-items: center;
-        }
-    }
-
-    .circle-container {
-        position: absolute;
-        // top: 0;
-        left: 50;
-        // inset-inline-end: 10%;
+        backdrop-filter: blur(10px);
     }
 }
-
-// .body-container:before,
-// .body-container:after {
-//     content: "";
-//     width: 100px;
-//     height: 100px;
-//     position: absolute;
-//     background: rgba(194, 23, 23, 0.767);
-//     left: 50%;
-//     top: 50%;
-//     animation: morph 15s linear infinite alternate, spin 20s linear infinite;
-//     z-index: 1;
-//     will-change: border-radius, transform;
-//     transform-origin: 55% 55%;
-//     pointer-events: none;
-// }
-
-// .body-container:after {
-//     width: 70vmin;
-//     height: 70vmin;
-//     left: auto;
-//     right: -10vmin;
-//     top: auto;
-//     bottom: 0;
-//     animation: morph 10s linear infinite alternate, spin 26s linear infinite reverse;
-//     transform-origin: 20% 20%;
-// }
